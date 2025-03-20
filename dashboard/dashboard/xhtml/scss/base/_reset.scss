@@ -173,26 +173,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 //         }
 //     }
 // }
-.content-body {
-    .container {
-        margin-top: 2.5rem;
-    }
-    .container-fluid {
-        padding-top: 1.875rem;
-		// padding-right: 1.875rem;
-		// padding-left: 1.875rem;
-		@include custommq($max: 47.9375rem) {
-			padding-top: 1.25rem;
-			// padding-right: 1.25rem;
-			// padding-left: 1.25rem;
-		}
-		@include custommq($max: 35.9375rem) {
-			padding-top: 0.9375rem;
-			// padding-right: 0.9375rem;
-			// padding-left: 0.9375rem;
-		}
-    }
-}
+
 
 /*sp*/
 .row.sp4,
@@ -216,16 +197,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 .op9{opacity:0.9;}
 
 
-.content-heading {
-    font-size: 1rem;
-    margin-bottom: 1.875rem;
-    margin-top: 3.125rem;
-    border-bottom: 0.0625rem solid $border;
-    padding-bottom: 0.625rem;
-    @at-root [direction="rtl"] #{&} {
-        text-align: right;
-    }
-}
+
 
 //change bootstrap default button behaviour on :focus:active 😢
 .btn {

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
@@ -12,75 +13,76 @@
 	<meta property="og:description" content="CryptoZone  :Crypto Trading Admin  Admin Bootstrap 5 Template">
 	<meta property="og:image" content="https://cryptozone.dexignzone.com/xhtml/social-image.png">
 	<meta name="format-detection" content="telephone=no">
-	
+
 	<!-- PAGE TITLE HERE -->
 	<title>CryptoZone Crypto Trading Admin</title>
-	
+
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	
+
 	<link href="./vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
 	<link href="./vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css">
-	
+
 	<!-- Style css -->
-    <link href="./css/style.css" rel="stylesheet">
-	
+	<link href="./css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <!--*******************
+	<!--*******************
         Preloader start
     ********************-->
-    <div id="loader">
+	<div id="loader">
 	</div>
-    <!--*******************
+	<!--*******************
         Preloader end
     ********************-->
 
-    <!--**********************************
+	<!--**********************************
         Main wrapper start
     ***********************************-->
-    <div id="main-wrapper">
-        <!--**********************************
+	<div id="main-wrapper">
+		<!--**********************************
             Nav header start
         ***********************************-->
-      
-        <!--**********************************
+
+		<!--**********************************
             Nav header end
         ***********************************-->
-		
-	
-		
+
+
+
 		<!--**********************************
             Header start
         ***********************************-->
-        <div class="header">
-            <div class="header-content">
-                <nav class="navbar navbar-expand">
-                    <div class="collapse navbar-collapse justify-content-between">
-                        <div class="header-left">
+		<div class="header">
+			<div class="header-content">
+				<nav class="navbar navbar-expand">
+					<div class="collapse navbar-collapse justify-content-between">
+						<div class="header-left">
 							<div class="dashboard_bar">
-                                Dashboard 
-                            </div>
-                        </div>
-              
-                    </div>
+								Dashboard
+							</div>
+						</div>
+
+					</div>
 				</nav>
 			</div>
 		</div>
-    
 
-        <!--**********************************
+
+		<!--**********************************
             Sidebar end
         ***********************************-->
-		
+
 		<!--**********************************
             Content body start
         ***********************************-->
-        <div class="content-body">
-            <!-- row -->
+		<div class="content-body">
+			<!-- row -->
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xl-8">
@@ -92,7 +94,10 @@
 											<div>
 												<h3>Invest in Cryptocurrency easily</h3>
 												<p>We make it easy and seamless to easily invest. No long procedures</p>
-												<a href="exchange.html" class="btn btn-primary">Invest Now </a>
+												<button class="btn btn-primary" data-bs-toggle="modal"
+													data-bs-target="#investModal">
+													Invest Now
+												</button>
 											</div>
 											<div class="coin-img">
 												<img src="images/coin.png" class="img-fluid" alt="">
@@ -111,19 +116,27 @@
 														<h4 class="count-num">$2,478.90</h4>
 														<p>Capital invested</p>
 														<div>
-															<svg class="me-1" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M19.6997 12.4191C18.364 17.7763 12.9382 21.0365 7.58042 19.7006C2.22486 18.365 -1.03543 12.9388 0.300792 7.582C1.63577 2.22424 7.06166 -1.03636 12.4179 0.299241C17.7753 1.63487 21.0353 7.06169 19.6997 12.4191Z" fill="#F7931A"/>
-																<path d="M6.71062 11.684C6.65625 11.8191 6.51844 12.0215 6.20781 11.9447C6.21877 11.9606 5.41033 11.7456 5.41033 11.7456L4.86566 13.0015L6.29343 13.3575C6.55906 13.424 6.81938 13.4937 7.07563 13.5594L6.62155 15.3825L7.71748 15.6559L8.16716 13.8522C8.46655 13.9334 8.75716 14.0084 9.04153 14.079L8.5934 15.8743L9.6906 16.1477L10.1446 14.3281C12.0156 14.6821 13.4224 14.5393 14.0146 12.8472C14.4918 11.4847 13.9909 10.6987 13.0065 10.1862C13.7234 10.0209 14.2633 9.54937 14.4074 8.57532C14.6065 7.24471 13.5933 6.5294 12.208 6.05221L12.6574 4.24971L11.5602 3.97627L11.1227 5.73126C10.8343 5.65938 10.538 5.59157 10.2437 5.52437L10.6843 3.75781L9.58775 3.48438L9.13807 5.28623C8.89931 5.23186 8.66496 5.17808 8.43745 5.12154L8.43869 5.1159L6.92557 4.7381L6.63368 5.90996C6.63368 5.90996 7.44775 6.09653 7.43056 6.10808C7.87494 6.21902 7.95524 6.51307 7.94182 6.74622L6.71062 11.684ZM11.9006 12.0906C11.5615 13.4531 9.26747 12.7165 8.52372 12.5318L9.12622 10.1166C9.86995 10.3022 12.2549 10.6697 11.9006 12.0906ZM12.2399 8.55564C11.9306 9.79501 10.0212 9.16533 9.40183 9.01096L9.94808 6.82033C10.5674 6.97471 12.5621 7.26283 12.2399 8.55564Z" fill="white"/>
+															<svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
+																fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M19.6997 12.4191C18.364 17.7763 12.9382 21.0365 7.58042 19.7006C2.22486 18.365 -1.03543 12.9388 0.300792 7.582C1.63577 2.22424 7.06166 -1.03636 12.4179 0.299241C17.7753 1.63487 21.0353 7.06169 19.6997 12.4191Z"
+																	fill="#F7931A" />
+																<path
+																	d="M6.71062 11.684C6.65625 11.8191 6.51844 12.0215 6.20781 11.9447C6.21877 11.9606 5.41033 11.7456 5.41033 11.7456L4.86566 13.0015L6.29343 13.3575C6.55906 13.424 6.81938 13.4937 7.07563 13.5594L6.62155 15.3825L7.71748 15.6559L8.16716 13.8522C8.46655 13.9334 8.75716 14.0084 9.04153 14.079L8.5934 15.8743L9.6906 16.1477L10.1446 14.3281C12.0156 14.6821 13.4224 14.5393 14.0146 12.8472C14.4918 11.4847 13.9909 10.6987 13.0065 10.1862C13.7234 10.0209 14.2633 9.54937 14.4074 8.57532C14.6065 7.24471 13.5933 6.5294 12.208 6.05221L12.6574 4.24971L11.5602 3.97627L11.1227 5.73126C10.8343 5.65938 10.538 5.59157 10.2437 5.52437L10.6843 3.75781L9.58775 3.48438L9.13807 5.28623C8.89931 5.23186 8.66496 5.17808 8.43745 5.12154L8.43869 5.1159L6.92557 4.7381L6.63368 5.90996C6.63368 5.90996 7.44775 6.09653 7.43056 6.10808C7.87494 6.21902 7.95524 6.51307 7.94182 6.74622L6.71062 11.684ZM11.9006 12.0906C11.5615 13.4531 9.26747 12.7165 8.52372 12.5318L9.12622 10.1166C9.86995 10.3022 12.2549 10.6697 11.9006 12.0906ZM12.2399 8.55564C11.9306 9.79501 10.0212 9.16533 9.40183 9.01096L9.94808 6.82033C10.5674 6.97471 12.5621 7.26283 12.2399 8.55564Z"
+																	fill="white" />
 															</svg>
 															<span>0.11857418</span>
 														</div>
-													</div>	
+													</div>
 													<div id="NewCustomers"></div>
 												</div>
 												<div class="back-icon">
-													<svg width="64" height="127" viewBox="0 0 64 127" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<svg width="64" height="127" viewBox="0 0 64 127" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
 														<g opacity="0.05">
-														<path d="M70.1991 32.0409C63.3711 28.2675 56.1119 25.3926 48.9246 22.4098C44.7559 20.6849 40.7669 18.6724 37.2451 15.8694C30.3093 10.3351 31.639 1.3509 39.7607 -2.20684C42.0606 -3.21307 44.4684 -3.5365 46.9121 -3.68024C56.3275 -4.18336 65.2758 -2.4584 73.7928 1.63839C78.0333 3.68679 79.4349 3.03993 80.8723 -1.38029C82.3817 -6.05207 83.6395 -10.7957 85.041 -15.5034C85.9753 -18.6659 84.8254 -20.7502 81.8426 -22.0799C76.3802 -24.4876 70.7741 -26.2126 64.8805 -27.1469C57.19 -28.3329 57.19 -28.3688 57.1541 -36.0952C57.1181 -46.984 57.1181 -46.984 46.1934 -46.984C44.6122 -46.984 43.0309 -47.02 41.4497 -46.984C36.3467 -46.8403 35.4842 -45.9419 35.3405 -40.8029C35.2686 -38.503 35.3405 -36.203 35.3045 -33.8671C35.2686 -27.0391 35.2327 -27.1469 28.6922 -24.7751C12.88 -19.0252 3.1052 -8.24421 2.06304 9.00543C1.12868 24.2785 9.10664 34.5924 21.6486 42.1032C29.375 46.739 37.9279 49.4702 46.1215 53.0998C49.3199 54.5014 52.3745 56.1185 55.0338 58.3466C62.904 64.8512 61.4665 75.6681 52.1229 79.7649C47.1277 81.957 41.845 82.4961 36.4186 81.8133C28.0453 80.7711 20.0314 78.579 12.4847 74.6619C8.06447 72.3619 6.77075 72.9729 5.2614 77.7524C3.96768 81.8852 2.81771 86.0538 1.66773 90.2225C0.122451 95.8286 0.697435 97.1583 6.05201 99.7817C12.88 103.088 20.1752 104.777 27.6141 105.963C33.4358 106.897 33.6155 107.149 33.6874 113.186C33.7233 115.917 33.7233 118.684 33.7593 121.416C33.7952 124.866 35.4483 126.878 39.006 126.95C43.0309 127.022 47.0918 127.022 51.1167 126.914C54.4229 126.842 56.1119 125.045 56.1119 121.703C56.1119 117.966 56.2916 114.192 56.1478 110.455C55.9682 106.646 57.6213 104.705 61.2868 103.699C69.7319 101.399 76.9193 96.8708 82.4535 90.1147C97.8345 71.4276 91.9768 44.0797 70.1991 32.0409Z" fill="#9568FF"/>
+															<path
+																d="M70.1991 32.0409C63.3711 28.2675 56.1119 25.3926 48.9246 22.4098C44.7559 20.6849 40.7669 18.6724 37.2451 15.8694C30.3093 10.3351 31.639 1.3509 39.7607 -2.20684C42.0606 -3.21307 44.4684 -3.5365 46.9121 -3.68024C56.3275 -4.18336 65.2758 -2.4584 73.7928 1.63839C78.0333 3.68679 79.4349 3.03993 80.8723 -1.38029C82.3817 -6.05207 83.6395 -10.7957 85.041 -15.5034C85.9753 -18.6659 84.8254 -20.7502 81.8426 -22.0799C76.3802 -24.4876 70.7741 -26.2126 64.8805 -27.1469C57.19 -28.3329 57.19 -28.3688 57.1541 -36.0952C57.1181 -46.984 57.1181 -46.984 46.1934 -46.984C44.6122 -46.984 43.0309 -47.02 41.4497 -46.984C36.3467 -46.8403 35.4842 -45.9419 35.3405 -40.8029C35.2686 -38.503 35.3405 -36.203 35.3045 -33.8671C35.2686 -27.0391 35.2327 -27.1469 28.6922 -24.7751C12.88 -19.0252 3.1052 -8.24421 2.06304 9.00543C1.12868 24.2785 9.10664 34.5924 21.6486 42.1032C29.375 46.739 37.9279 49.4702 46.1215 53.0998C49.3199 54.5014 52.3745 56.1185 55.0338 58.3466C62.904 64.8512 61.4665 75.6681 52.1229 79.7649C47.1277 81.957 41.845 82.4961 36.4186 81.8133C28.0453 80.7711 20.0314 78.579 12.4847 74.6619C8.06447 72.3619 6.77075 72.9729 5.2614 77.7524C3.96768 81.8852 2.81771 86.0538 1.66773 90.2225C0.122451 95.8286 0.697435 97.1583 6.05201 99.7817C12.88 103.088 20.1752 104.777 27.6141 105.963C33.4358 106.897 33.6155 107.149 33.6874 113.186C33.7233 115.917 33.7233 118.684 33.7593 121.416C33.7952 124.866 35.4483 126.878 39.006 126.95C43.0309 127.022 47.0918 127.022 51.1167 126.914C54.4229 126.842 56.1119 125.045 56.1119 121.703C56.1119 117.966 56.2916 114.192 56.1478 110.455C55.9682 106.646 57.6213 104.705 61.2868 103.699C69.7319 101.399 76.9193 96.8708 82.4535 90.1147C97.8345 71.4276 91.9768 44.0797 70.1991 32.0409Z"
+																fill="#9568FF" />
 														</g>
 													</svg>
 												</div>
@@ -137,19 +150,30 @@
 														<p>Profit yeilded</p>
 														<div>
 															<span class="text-success">+3.02%</span>
-														</div> 
-													</div>	
+														</div>
+													</div>
 													<div id="ProfitlossChart"></div>
 												</div>
 												<div class="back-icon">
-													<svg width="157" height="114" viewBox="0 0 157 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<svg width="157" height="114" viewBox="0 0 157 114" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
 														<g opacity="0.05">
-															<path d="M12.1584 84.1906V110.157C12.1584 111.737 13.5953 113.053 15.4007 113.053H37.8751C39.6436 113.053 41.1173 111.77 41.1173 110.157V64.4771L24.7957 79.0565C21.3324 82.1172 16.9112 83.8944 12.1584 84.1906Z" fill="#9568FF"/>
-															<path d="M52.3177 64.1484V110.158C52.3177 111.737 53.7546 113.054 55.56 113.054H78.0344C79.8029 113.054 81.2766 111.77 81.2766 110.158V83.0721C76.1554 82.9734 71.3657 81.1633 67.7551 77.938L52.3177 64.1484Z" fill="#9568FF"/>
-															<path d="M92.4769 80.2078V110.157C92.4769 111.736 93.9138 113.053 95.7191 113.053H118.194C119.962 113.053 121.436 111.769 121.436 110.157V54.8994L95.6823 77.904C94.6875 78.7926 93.6191 79.5496 92.4769 80.2078Z" fill="#9568FF"/>
-															<path d="M159.421 20.9355L132.636 44.8617V110.157C132.636 111.736 134.073 113.053 135.878 113.053H158.353C160.121 113.053 161.595 111.769 161.595 110.157V22.7456C160.858 22.1862 160.306 21.6925 159.9 21.3634L159.421 20.9355Z" fill="#9568FF"/>
-															<path d="M177.806 -21.4532C176.737 -22.4734 175.116 -23 173.053 -23C172.869 -23 172.648 -23 172.464 -23C162 -22.5722 151.573 -22.1114 141.11 -21.6836C139.71 -21.6177 137.794 -21.5519 136.283 -20.2026C135.804 -19.7747 135.436 -19.2811 135.141 -18.6887C133.594 -15.6938 135.768 -13.7521 136.799 -12.8306L139.415 -10.461C141.22 -8.81546 143.063 -7.16992 144.905 -5.55729L81.6816 50.9505L53.2754 25.5763C51.5806 24.0624 49.2964 23.2067 46.8647 23.2067C44.433 23.2067 42.1856 24.0624 40.4908 25.5763L2.65272 59.3427C-0.88424 62.5022 -0.88424 67.6033 2.65272 70.7628L4.34751 72.2767C6.0423 73.7906 8.32659 74.6462 10.7582 74.6462C13.1899 74.6462 15.4374 73.7906 17.1321 72.2767L46.8647 45.7177L75.2709 71.0919C76.9657 72.6058 79.25 73.4615 81.6816 73.4615C84.1133 73.4615 86.3607 72.6058 88.0924 71.0919L159.421 7.37663L167.49 14.5512C168.448 15.4069 169.774 16.5916 171.8 16.5916C172.648 16.5916 173.495 16.3942 174.379 15.9663C174.969 15.6702 175.485 15.341 175.927 14.9461C177.511 13.5309 177.806 11.7209 177.88 10.3057C178.174 4.25011 178.506 -1.80547 178.837 -7.89396L179.316 -17.0102C179.427 -18.9191 178.948 -20.4001 177.806 -21.4532Z" fill="#9568FF"/>
-															</g>
+															<path
+																d="M12.1584 84.1906V110.157C12.1584 111.737 13.5953 113.053 15.4007 113.053H37.8751C39.6436 113.053 41.1173 111.77 41.1173 110.157V64.4771L24.7957 79.0565C21.3324 82.1172 16.9112 83.8944 12.1584 84.1906Z"
+																fill="#9568FF" />
+															<path
+																d="M52.3177 64.1484V110.158C52.3177 111.737 53.7546 113.054 55.56 113.054H78.0344C79.8029 113.054 81.2766 111.77 81.2766 110.158V83.0721C76.1554 82.9734 71.3657 81.1633 67.7551 77.938L52.3177 64.1484Z"
+																fill="#9568FF" />
+															<path
+																d="M92.4769 80.2078V110.157C92.4769 111.736 93.9138 113.053 95.7191 113.053H118.194C119.962 113.053 121.436 111.769 121.436 110.157V54.8994L95.6823 77.904C94.6875 78.7926 93.6191 79.5496 92.4769 80.2078Z"
+																fill="#9568FF" />
+															<path
+																d="M159.421 20.9355L132.636 44.8617V110.157C132.636 111.736 134.073 113.053 135.878 113.053H158.353C160.121 113.053 161.595 111.769 161.595 110.157V22.7456C160.858 22.1862 160.306 21.6925 159.9 21.3634L159.421 20.9355Z"
+																fill="#9568FF" />
+															<path
+																d="M177.806 -21.4532C176.737 -22.4734 175.116 -23 173.053 -23C172.869 -23 172.648 -23 172.464 -23C162 -22.5722 151.573 -22.1114 141.11 -21.6836C139.71 -21.6177 137.794 -21.5519 136.283 -20.2026C135.804 -19.7747 135.436 -19.2811 135.141 -18.6887C133.594 -15.6938 135.768 -13.7521 136.799 -12.8306L139.415 -10.461C141.22 -8.81546 143.063 -7.16992 144.905 -5.55729L81.6816 50.9505L53.2754 25.5763C51.5806 24.0624 49.2964 23.2067 46.8647 23.2067C44.433 23.2067 42.1856 24.0624 40.4908 25.5763L2.65272 59.3427C-0.88424 62.5022 -0.88424 67.6033 2.65272 70.7628L4.34751 72.2767C6.0423 73.7906 8.32659 74.6462 10.7582 74.6462C13.1899 74.6462 15.4374 73.7906 17.1321 72.2767L46.8647 45.7177L75.2709 71.0919C76.9657 72.6058 79.25 73.4615 81.6816 73.4615C84.1133 73.4615 86.3607 72.6058 88.0924 71.0919L159.421 7.37663L167.49 14.5512C168.448 15.4069 169.774 16.5916 171.8 16.5916C172.648 16.5916 173.495 16.3942 174.379 15.9663C174.969 15.6702 175.485 15.341 175.927 14.9461C177.511 13.5309 177.806 11.7209 177.88 10.3057C178.174 4.25011 178.506 -1.80547 178.837 -7.89396L179.316 -17.0102C179.427 -18.9191 178.948 -20.4001 177.806 -21.4532Z"
+																fill="#9568FF" />
+														</g>
 													</svg>
 
 												</div>
@@ -165,30 +189,41 @@
 													<div id="TotaldipositChart"></div>
 												</div>
 												<div class="back-icon">
-													<svg width="138" height="113" viewBox="0 0 138 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<svg width="138" height="113" viewBox="0 0 138 113" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
 														<g opacity="0.05">
-														<path d="M119.285 -15.4771H113.59V4.77299H133.524V-1.23874C133.524 -9.08974 127.136 -15.4771 119.285 -15.4771Z" fill="#9568FF"/>
-														<path d="M99.3521 -49.0015H42.3988C39.7777 -49.0015 37.6527 -46.8765 37.6527 -44.2554V4.77188H104.098V-44.2554C104.098 -46.8765 101.973 -49.0015 99.3521 -49.0015Z" fill="#9568FF"/>
-														<path d="M28.1602 -15.4771H14.8711C10.898 -15.4771 7.16314 -13.9305 4.35502 -11.122C1.5466 -8.31391 0 -4.57905 0 -0.605927V4.77299H28.1602V-15.4771Z" fill="#9568FF"/>
-														<path d="M108.211 59.8423C108.211 66.8647 113.998 75.3463 121.183 75.3463H157.254C159.875 75.3463 162 73.2213 162 70.6002V49.0845C162 46.4634 159.875 44.3384 157.254 44.3384H121.183C113.998 44.3384 108.211 52.82 108.211 59.8423ZM128.777 59.8414C128.777 62.4628 126.652 64.5875 124.031 64.5875C121.41 64.5875 119.285 62.4628 119.285 59.8414C119.285 57.2203 121.41 55.0953 124.031 55.0953C126.652 55.0953 128.777 57.2203 128.777 59.8414Z" fill="#9568FF"/>
-														<path d="M105.012 76.6807C101.013 71.8922 98.719 65.7555 98.719 59.8437C98.719 53.932 101.013 47.7953 105.012 43.0068C109.406 37.7452 115.15 34.8476 121.184 34.8476H153.774V20.6093C153.774 19.8236 153.719 19.0516 153.615 18.2966C153.293 15.9761 151.277 14.2656 148.935 14.2656H0V96.7621C0 105.716 6.38731 113 14.2383 113H139.535C147.386 113 153.774 105.716 153.774 96.7621V84.8399H121.184C115.15 84.8399 109.406 81.9422 105.012 76.6807Z" fill="#9568FF"/>
+															<path
+																d="M119.285 -15.4771H113.59V4.77299H133.524V-1.23874C133.524 -9.08974 127.136 -15.4771 119.285 -15.4771Z"
+																fill="#9568FF" />
+															<path
+																d="M99.3521 -49.0015H42.3988C39.7777 -49.0015 37.6527 -46.8765 37.6527 -44.2554V4.77188H104.098V-44.2554C104.098 -46.8765 101.973 -49.0015 99.3521 -49.0015Z"
+																fill="#9568FF" />
+															<path
+																d="M28.1602 -15.4771H14.8711C10.898 -15.4771 7.16314 -13.9305 4.35502 -11.122C1.5466 -8.31391 0 -4.57905 0 -0.605927V4.77299H28.1602V-15.4771Z"
+																fill="#9568FF" />
+															<path
+																d="M108.211 59.8423C108.211 66.8647 113.998 75.3463 121.183 75.3463H157.254C159.875 75.3463 162 73.2213 162 70.6002V49.0845C162 46.4634 159.875 44.3384 157.254 44.3384H121.183C113.998 44.3384 108.211 52.82 108.211 59.8423ZM128.777 59.8414C128.777 62.4628 126.652 64.5875 124.031 64.5875C121.41 64.5875 119.285 62.4628 119.285 59.8414C119.285 57.2203 121.41 55.0953 124.031 55.0953C126.652 55.0953 128.777 57.2203 128.777 59.8414Z"
+																fill="#9568FF" />
+															<path
+																d="M105.012 76.6807C101.013 71.8922 98.719 65.7555 98.719 59.8437C98.719 53.932 101.013 47.7953 105.012 43.0068C109.406 37.7452 115.15 34.8476 121.184 34.8476H153.774V20.6093C153.774 19.8236 153.719 19.0516 153.615 18.2966C153.293 15.9761 151.277 14.2656 148.935 14.2656H0V96.7621C0 105.716 6.38731 113 14.2383 113H139.535C147.386 113 153.774 105.716 153.774 96.7621V84.8399H121.184C115.15 84.8399 109.406 81.9422 105.012 76.6807Z"
+																fill="#9568FF" />
 														</g>
 													</svg>
 												</div>
 											</div>
 										</div>
-										
+
 									</div>
 								</div>
 							</div>
 							<div class="col-xl-12">
 								<div class="card">
 									<div class="card-body">
-										 <div id="tradingview_e8053" class="tranding-chart"></div>
+										<div id="tradingview_e8053" class="tranding-chart"></div>
 									</div>
 								</div>
 							</div>
-						
+
 						</div>
 					</div>
 					<div class="col-xl-4">
@@ -198,101 +233,139 @@
 									<div class="card-body px-0 pt-1">
 										<div class="">
 											<nav class="buy-sell">
-											  <div class="nav nav-tabs" id="nav-tab2" role="tablist">
-												<button class="nav-link active" id="nav-buy-tab" data-bs-toggle="tab" data-bs-target="#nav-buy" type="button" role="tab" aria-controls="nav-buy" aria-selected="true">buy</button>
-												<button class="nav-link" id="nav-sell-tab" data-bs-toggle="tab" data-bs-target="#nav-sell" type="button" role="tab" aria-controls="nav-sell" aria-selected="false">sell</button>
-											  </div>
+												<div class="nav nav-tabs" id="nav-tab2" role="tablist">
+													<button class="nav-link active" id="nav-buy-tab"
+														data-bs-toggle="tab" data-bs-target="#nav-buy" type="button"
+														role="tab" aria-controls="nav-buy"
+														aria-selected="true">buy</button>
+													<button class="nav-link" id="nav-sell-tab" data-bs-toggle="tab"
+														data-bs-target="#nav-sell" type="button" role="tab"
+														aria-controls="nav-sell" aria-selected="false">sell</button>
+												</div>
 											</nav>
 											<div class="tab-content" id="nav-tabContent">
-												<div class="tab-pane fade show active" id="nav-buy" role="tabpanel" aria-labelledby="nav-buy-tab">
+												<div class="tab-pane fade show active" id="nav-buy" role="tabpanel"
+													aria-labelledby="nav-buy-tab">
 													<nav class="limit-sell">
 														<div class="nav nav-tabs" id="nav-tab3" role="tablist">
-															<button class="nav-link active" id="nav-market-order-tab1" data-bs-toggle="tab" data-bs-target="#nav-market-order1" type="button" role="tab" aria-controls="nav-market-order1" aria-selected="true">market order</button>
-															<button class="nav-link" id="nav-limit-order-tab1" data-bs-toggle="tab" data-bs-target="#nav-limit-order1" type="button" role="tab" aria-controls="nav-limit-order1" aria-selected="false">limit order</button>
-													  </div>
+															<button class="nav-link active" id="nav-market-order-tab1"
+																data-bs-toggle="tab" data-bs-target="#nav-market-order1"
+																type="button" role="tab"
+																aria-controls="nav-market-order1"
+																aria-selected="true">market order</button>
+															<button class="nav-link" id="nav-limit-order-tab1"
+																data-bs-toggle="tab" data-bs-target="#nav-limit-order1"
+																type="button" role="tab"
+																aria-controls="nav-limit-order1"
+																aria-selected="false">limit order</button>
+														</div>
 													</nav>
 													<div class="tab-content" id="nav-tabContent1">
-														<div class="tab-pane fade show active" id="nav-market-order1" role="tabpanel" aria-labelledby="nav-market-order-tab1">
+														<div class="tab-pane fade show active" id="nav-market-order1"
+															role="tabpanel" aria-labelledby="nav-market-order-tab1">
 														</div>
-														<div class="tab-pane fade" id="nav-limit-order1" role="tabpanel" aria-labelledby="nav-limit-order-tab1">
+														<div class="tab-pane fade" id="nav-limit-order1" role="tabpanel"
+															aria-labelledby="nav-limit-order-tab1">
 														</div>
 													</div>
 													<div class="sell-element">
 														<form>
 															<div class="sell-blance">
 																<label class="form-label text-primary">Price</label>
-																<div class="form-label blance"><span>BALANCE:</span><p>$3,123.9</p></div>
+																<div class="form-label blance"><span>BALANCE:</span>
+																	<p>$3,123.9</p>
+																</div>
 																<div class="input-group">
-																	<input type="text" class="form-control" placeholder="0.00">
+																	<input type="text" class="form-control"
+																		placeholder="0.00">
 																	<span class="input-group-text">USDT</span>
 																</div>
 															</div>
 															<div class="sell-blance">
 																<label class="form-label text-primary">Amount</label>
 																<div class="input-group">
-																	<input type="text" class="form-control" placeholder="Amount">
+																	<input type="text" class="form-control"
+																		placeholder="Amount">
 																	<span class="input-group-text">BTC</span>
 																</div>
 															</div>
 															<div class="sell-blance">
 																<label class="form-label text-primary">Total</label>
 																<div class="input-group">
-																	<input type="text" class="form-control" placeholder="Total">
+																	<input type="text" class="form-control"
+																		placeholder="Total">
 																	<span class="input-group-text">USDT</span>
 																</div>
 															</div>
 															<div class="slider-wrapper">
-															  <div id="employees"></div>
+																<div id="employees"></div>
 															</div>
 															<div class="text-center">
-																<a href="exchange.html" class="btn btn-primary w-75">BUY BTC</a>
-															</div>	
+																<a href="exchange.html" class="btn btn-primary w-75">BUY
+																	BTC</a>
+															</div>
 														</form>
-													</div>	
-											  
+													</div>
+
 												</div>
-												<div class="tab-pane fade" id="nav-sell" role="tabpanel" aria-labelledby="nav-sell-tab">
+												<div class="tab-pane fade" id="nav-sell" role="tabpanel"
+													aria-labelledby="nav-sell-tab">
 													<nav class="limit-sell">
 														<div class="nav nav-tabs" id="nav-tab4" role="tablist">
-															<button class="nav-link active" id="nav-market-order-tab" data-bs-toggle="tab" data-bs-target="#nav-market-order" type="button" role="tab" aria-controls="nav-market-order" aria-selected="true">market order</button>
-															<button class="nav-link" id="nav-limit-order-tab" data-bs-toggle="tab" data-bs-target="#nav-limit-order" type="button" role="tab" aria-controls="nav-limit-order" aria-selected="false">limit order</button>
-													  </div>
+															<button class="nav-link active" id="nav-market-order-tab"
+																data-bs-toggle="tab" data-bs-target="#nav-market-order"
+																type="button" role="tab"
+																aria-controls="nav-market-order"
+																aria-selected="true">market order</button>
+															<button class="nav-link" id="nav-limit-order-tab"
+																data-bs-toggle="tab" data-bs-target="#nav-limit-order"
+																type="button" role="tab" aria-controls="nav-limit-order"
+																aria-selected="false">limit order</button>
+														</div>
 													</nav>
 													<div class="tab-content" id="nav-tabContent2">
-													  <div class="tab-pane fade show active" id="nav-market-order" role="tabpanel" aria-labelledby="nav-market-order-tab"></div>
+														<div class="tab-pane fade show active" id="nav-market-order"
+															role="tabpanel" aria-labelledby="nav-market-order-tab">
+														</div>
 													</div>
 													<div class="sell-element">
 														<form>
 															<div class="sell-blance">
 																<label class="form-label text-primary">Price</label>
-																<div class="form-label blance"><span>BALANCE:</span><p>$3,123.9</p></div>
+																<div class="form-label blance"><span>BALANCE:</span>
+																	<p>$3,123.9</p>
+																</div>
 																<div class="input-group">
-																	<input type="text" class="form-control" placeholder="0.00">
+																	<input type="text" class="form-control"
+																		placeholder="0.00">
 																	<span class="input-group-text">USDT</span>
 																</div>
 															</div>
 															<div class="sell-blance">
 																<label class="form-label text-primary">Amount</label>
 																<div class="input-group">
-																	<input type="text" class="form-control" placeholder="Amount">
+																	<input type="text" class="form-control"
+																		placeholder="Amount">
 																	<span class="input-group-text">BTC</span>
 																</div>
 															</div>
 															<div class="sell-blance">
 																<label class="form-label text-primary">Total</label>
 																<div class="input-group">
-																	<input type="text" class="form-control" placeholder="Total">
+																	<input type="text" class="form-control"
+																		placeholder="Total">
 																	<span class="input-group-text">USDT</span>
 																</div>
 															</div>
 															<div class="slider-wrapper">
-															  <div id="employees1"></div>
+																<div id="employees1"></div>
 															</div>
 															<div class="text-center">
-																<a href="exchange.html" class="btn btn-primary w-75">SELL BTC</a>
-															</div>	
+																<a href="exchange.html"
+																	class="btn btn-primary w-75">SELL BTC</a>
+															</div>
 														</form>
-													</div>	
+													</div>
 												</div>
 											</div>
 										</div>
@@ -302,17 +375,24 @@
 							<div class="col-xl-12 col-sm-6">
 								<div class="card">
 									<div class="card-header py-2">
-										<h2 class="heading">Order Book <span>(BTC/USDT)</span></h2> 
-									</div>	
+										<h2 class="heading">Order Book <span>(BTC/USDT)</span></h2>
+									</div>
 									<div class="card-body pt-0 pb-3 px-2">
 										<nav class="buy-sell style-1">
 											<div class="nav nav-tabs" id="nav-tab1" role="tablist">
-												<button class="nav-link active" id="nav-openorder-tab" data-bs-toggle="tab" data-bs-target="#nav-openorder" type="button" role="tab" aria-controls="nav-openorder" aria-selected="true">Open Orders</button>
-											 	<button class="nav-link" id="nav-orderhistory-tab" data-bs-toggle="tab" data-bs-target="#nav-orderhistory" type="button" role="tab" aria-controls="nav-orderhistory" aria-selected="false">Order History</button>
+												<button class="nav-link active" id="nav-openorder-tab"
+													data-bs-toggle="tab" data-bs-target="#nav-openorder" type="button"
+													role="tab" aria-controls="nav-openorder" aria-selected="true">Open
+													Orders</button>
+												<button class="nav-link" id="nav-orderhistory-tab" data-bs-toggle="tab"
+													data-bs-target="#nav-orderhistory" type="button" role="tab"
+													aria-controls="nav-orderhistory" aria-selected="false">Order
+													History</button>
 											</div>
 										</nav>
 										<div class="tab-content" id="nav-tabContent3">
-											<div class="tab-pane fade show active" id="nav-openorder" role="tabpanel" aria-labelledby="nav-openorder-tab">
+											<div class="tab-pane fade show active" id="nav-openorder" role="tabpanel"
+												aria-labelledby="nav-openorder-tab">
 												<div class="list-row-head">
 													<span>Price</span>
 													<span>Size</span>
@@ -366,7 +446,7 @@
 
 														</div>
 													</div>
-													
+
 													<div class="list-row">
 														<span>19852.63</span>
 														<span>0.050300</span>
@@ -396,7 +476,7 @@
 														<span>0.050300</span>
 														<span class="text-end">2.362877</span>
 														<div class="bg-layer">
-															
+
 														</div>
 													</div>
 													<div class="list-row">
@@ -408,7 +488,8 @@
 													</div>
 												</div>
 												<div class="list-bottom-info">
-													<h6 class="text-danger mb-0">19858.19 <i class="fa-solid fa-caret-up"></i></h6>
+													<h6 class="text-danger mb-0">19858.19 <i
+															class="fa-solid fa-caret-up"></i></h6>
 												</div>
 												<div class="list-table success">
 													<div class="list-row">
@@ -440,7 +521,7 @@
 														<span>0.050300</span>
 														<span class="text-end">2.362877</span>
 														<div class="bg-layer">
-															
+
 														</div>
 													</div>
 													<div class="list-row">
@@ -501,7 +582,8 @@
 													</div>
 												</div>
 											</div>
-											<div class="tab-pane fade" id="nav-orderhistory" role="tabpanel" aria-labelledby="nav-orderhistory-tab">
+											<div class="tab-pane fade" id="nav-orderhistory" role="tabpanel"
+												aria-labelledby="nav-orderhistory-tab">
 												<div class="list-row-head">
 													<span>Price</span>
 													<span>Size</span>
@@ -592,7 +674,7 @@
 														<span>0.050300</span>
 														<span class="text-end">2.362877</span>
 														<div class="bg-layer">
-															
+
 														</div>
 													</div>
 													<div class="list-row">
@@ -604,7 +686,8 @@
 													</div>
 												</div>
 												<div class="list-bottom-info">
-													<h6 class="text-danger mb-0">19858.19 <i class="fa-solid fa-caret-up"></i></h6>
+													<h6 class="text-danger mb-0">19858.19 <i
+															class="fa-solid fa-caret-up"></i></h6>
 												</div>
 												<div class="list-table success">
 													<div class="list-row">
@@ -693,76 +776,58 @@
 									</div>
 								</div>
 							</div>
-							<!-- <div class="col-xl-12 col-sm-6 server-chart">
-								<div class="card">
-									<div class="card-header border-0 pb-0">
-										<h2 class="heading mb-0">Server Status</h2>
-									</div>
-									<div class="card-body pt-0 custome-tooltip">
-										<div id="chartBar" class="chartBar"></div>
-										<div class="d-flex server-status">
-											<div>	
-												<span>Country</span>
-												<h4 class="fs-14 mb-0">Indonesia</h4>
-											</div>
-											<div>	
-												<span>Domain</span>
-												<h4 class="fs-14 mb-0">website.com</h4>
-											</div>
-											<div>	
-												<span><i class="fa-solid fa-caret-up text-secondary scale-2"></i></span>
-												<h4 class="fs-14 mb-0">2.0 mbps</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div> -->
+
 						</div>
 					</div>
 				</div>
-            </div>
-        </div>
-		
-        <!--**********************************
-            Content body end
-        ***********************************-->
-		
-		
-		
-        <!--**********************************
-            Footer start
-        ***********************************-->
-        <div class="footer out-footer">
-            <div class="copyright">
-               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2022</p>
-            </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="investModal" tabindex="-1" aria-labelledby="investModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title" id="investModalLabel">Send Bitcoin to this Address</h3>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body text-center">
+							<p>Please send the required amount of Bitcoin to the wallet address below:</p>
+							<div class="alert alert-secondary" role="alert">
+								<strong>Wallet Address:</strong> <br>
+								<span id="btcAddress">1FfmbHfnpaZjKFvyi1okTjJJusN455paPH</span>
+							</div>
+							<button class="btn btn-outline-primary" onclick="copyAddress()">Copy Address</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<!--**********************************
-           Support ticket button start
-        ***********************************-->
-		
-        <!--**********************************
-           Support ticket button end
-        ***********************************-->
+
+
+
 
 
 	</div>
-    <!--**********************************
+	<!--**********************************
         Main wrapper end
     ***********************************-->
 
-    <!--**********************************
+	<!--**********************************
         Scripts
     ***********************************-->
-    <!-- Required vendors -->
-    <script src="./vendor/global/global.min.js"></script>
+	<script>
+		function copyAddress() {
+			const btcAddress = document.getElementById("btcAddress").innerText;
+			navigator.clipboard.writeText(btcAddress);
+			alert("Bitcoin address copied to clipboard!");
+		}
+	</script>
+	<!-- Required vendors -->
+	<script src="./vendor/global/global.min.js"></script>
 	<script src="./vendor/chart.js/Chart.bundle.min.js"></script>
 	<script src="./vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
-	
+
 	<!-- Dashboard 1 -->
 	<script src="./js/dashboard/dashboard-1.js"></script>
 	<!-- Apex Chart -->
@@ -773,12 +838,13 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
 	<script src="./vendor/raphael/raphael.min.js"></script>
 	<script src="./vendor/morris/morris.min.js"></script>
-	
-    <script src="./js/custom.js"></script>
+
+	<script src="./js/custom.js"></script>
 	<script src="./js/deznav-init.js"></script>
-	
-    
+
+
 	<script src="./js/dashboard/tradingview-1.js"></script>
-	
+
 </body>
+
 </html>
